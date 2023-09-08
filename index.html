@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>Flexer</h1>
+      <div class="wrapper">
+        <div class="mainLeft">
+          <div class="mainboxs">
+            <div class="mainBox1">1</div>
+            <div class="mainBox1">2</div>
+            <div class="mainBox1">3</div>
+            <div class="mainBox1">4</div>
+          </div>
+        </div>
+        <div class="mainRight">
+          <div class="btnsTop">
+            <button
+              class="propertiesBtn tablinks"
+              onclick="openCity(event, 'Properties')"
+            >
+              Properties
+            </button>
+            <button class="codeBtn tablinks" onclick="openCity(event, 'Code')">
+              Code
+            </button>
+          </div>
+
+          <div class="btnsSecond">
+            <button class="btnsSecondLeft">Simplified</button>
+            <button class="btnsSecondRight">actual</button>
+          </div>
+          <div id="Properties" class="tabcontent">
+            <div class="horizantAndVertikal">
+              <button class="horizantalBtn">Horizontal</button>
+              <button class="vertikalBtn">Vertikal</button>
+            </div>
+          </div>
+
+          <div id="Code" class="tabcontent">
+            <h3>Some Code</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
