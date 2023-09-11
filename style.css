@@ -115,6 +115,7 @@ h1 {
 }
 .mainboxs {
   gap: 20px;
+  display: flex;
 }
 .mainBox1 {
   width: 200px;
@@ -122,8 +123,9 @@ h1 {
   background-color: rgb(88, 32, 176);
   align-self: auto;
   border-radius: 15px;
-  padding: 90px;
+  padding: 80px;
   font-size: 30px;
+  justify-content: right;
 }
 
 .tabcontent {
@@ -165,13 +167,53 @@ h1 {
   background-color: #844cde;
 }
 
-.horizantalStyle{
-    display: flex;
-    gap: 30px;
+.horizantalStyle {
+  display: flex;
+  gap: 30px;
 }
 
-.vertikalStyle{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+.vertikalStyle {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#justify-content {
+  border: none;
+  width: 30%;
+  padding: 20px;
+  font-size: 21px;
+  background: #131313;
+  border-radius: 10px;
+  color: #fff;
+  border: 0.8px solid #a17676;
+  cursor: pointer;
+}
+
+.addAndRefresh {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.add {
+  border: none;
+  width: 30%;
+  padding: 20px;
+  font-size: 21px;
+  background: #131313;
+  border-radius: 10px;
+  color: #fff;
+  border: 0.8px solid #a17676;
+}
+
+.refresh {
+  border: none;
+  width: 30%;
+  padding: 20px;
+  font-size: 21px;
+  background: #131313;
+  border-radius: 10px;
+  color: #fff;
+  border: 0.8px solid #a17676;
 }
