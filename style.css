@@ -116,6 +116,7 @@ h1 {
 .mainboxs {
   gap: 20px;
   display: flex;
+  flex-wrap: wrap;
 }
 .mainBox1 {
   width: 200px;
